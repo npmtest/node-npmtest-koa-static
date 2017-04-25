@@ -1,6 +1,6 @@
 # npmtest-koa-static
 
-#### test coverage for  [koa-static (v3.0.0)](https://github.com/koajs/static#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-static.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-static) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-static.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-static)
+#### basic test coverage for  [koa-static (v3.0.0)](https://github.com/koajs/static#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-static.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-static) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-static.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-static)
 
 #### Static file serving middleware for koa
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-koa-static/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-koa-static/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-koa-static/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-koa-static/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koa-static/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koa-static/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-koa-static/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-koa-static/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koa-static/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koa-static/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-koa-static/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-koa-static/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "test-cov": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
         "test-travis": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
